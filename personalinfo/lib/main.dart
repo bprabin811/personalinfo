@@ -13,7 +13,7 @@ class PersonalInfo extends StatelessWidget {
         title: "Personal Details",
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.teal,
+          primarySwatch: Colors.pink,
           scaffoldBackgroundColor: Colors.white10,
         ),
         home: const MyHome()
@@ -173,7 +173,7 @@ class MyHome extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
-                            Image.network("https://scontent.fktm6-1.fna.fbcdn.net/v/t39.30808-6/245873882_926151618282293_840765934150169799_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=nI1kdWkmfDwAX_7R3Wx&_nc_ht=scontent.fktm6-1.fna&oh=00_AT-7T2TfLz3Ky3gm6i3AHp_hmh2_co2idmFvtpa-L2DHqg&oe=62BFA89B",
+                            Image.network("https://scontent.fktm6-1.fna.fbcdn.net/v/t39.30808-6/291095666_1095309598033160_1929559233948925493_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=e6GMHUfS6dwAX9r-UMe&_nc_oc=AQnSIVf4AdokpZTVWZH3KfeDOGoqgSm6_MYyLjAtdANnLWEbo1dobP1PJVq5_MNEheI&tn=4kUXj8Teb_LXWmt-&_nc_ht=scontent.fktm6-1.fna&oh=00_AT-_c-Wg8UbwHNLcY6dzNXx9NnZJpUUDWbR_weox4cWzXg&oe=62C5DEF0",
                              height: MediaQuery.of(context).size.height/4,width: MediaQuery.of(context).size.width/3.3,),
                           ],
                         ),
